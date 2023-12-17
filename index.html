@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maher Enterprise</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <div class="jumbotron-lg">
+    <img src="../images/jumbotron.jpg" alt="Jumbotron">
+  </div>
+
+  <header>
+    <!-- header-nav Bootstrap class is the header of a webpage. -->
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+          <!-- navbar-header Bootstrap class is where the logo goes. -->
+          <!-- pull-left Bootstrap class is used to float item to left. -->
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+        
+          <!-- navbar-brand Bootstrap class is where the name of the company goes. -->
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>
+                Maher Enterprise
+              </h1>
+            </a>
+
+            <div>
+              <div>
+                4315 Ave De Courtrai H3S 1B8
+              </div>
+              <p>
+                Montreal, Canada
+              </p>
+            </div>
+
+            <div id="call-btn" class="visible-xs">
+              <a class="btn" href="tel:410-602-5008">
+              <span class="glyphicon glyphicon-earphone"></span>
+              514-216-7384
+              </a>
+            </div>
+          </div>
+
+          <!-- Collapsible Navbar (copied from Bootstrap website) -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- .navbar-header -->
+
+        <!-- Contents of the Navbar (or Header, if screen is big enough) -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="inventory-list.html">
+                <span class="glyphicon glyphicon-th"></span>
+                <br class="hidden-xs"> 
+                Inventory
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span>
+                <br class="hidden-xs"> 
+                About 
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-earphone"></span>
+                <br class="hidden-xs"> 
+                Contact 
+              </a>
+            </li>
+
+            <li id="phone" class="hidden-xs">
+              <a href="tel:514-216-7384">
+                <span>514-216-7384</span>
+              </a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div class="jumbotron">
+    <img src="../images/jumbotron.jpg" alt="Jumbotron">
+  </div>
+
+  <div id="main-content" class="container">
+    
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="inventory-list.html">
+          <div id="inventory-tile">
+            <span>Our Inventory</span>
+          </div>
+        </a>
+      </div>
+      
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="contact-us.html">
+          <div id="contact-tile">
+            <span>Contact Us</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://maps.app.goo.gl/PJ2Xd4PSA15fcBt86" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.4953042046945!2d-73.6433354!3d45.5001071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919c45781aded%3A0xada4030c3bb30d2d!2s4315%20Av.%20de%20Courtrai%2C%20Montr%C3%A9al%2C%20QC%20H3S%201B8!5e0!3m2!1sen!2sca!4v1702782413875!5m2!1sen!2sca" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>Map</span>
+          </div>
+        </a>
+      </div>
+
+    </div><!-- #home-tiles -->
+  </div><!-- #main-content -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

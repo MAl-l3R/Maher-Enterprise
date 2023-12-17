@@ -202,6 +202,21 @@ body {
 
 }
 
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 400px) {
+  /* Header */
+  .navbar-brand h1 { /* Company name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+  #call-btn > a {
+    position: relative;
+    margin: 0;
+  }
+  /* End Header */
+}
+
 /* Responsive Jumbotron */
 @media (max-width: 830px) {
   #header-nav {

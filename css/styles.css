@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background: url('../images/background.jpg') repeat-y;
+  background: url('../images/background-1.jpg') repeat-y;
   background-size: 100% auto;
   font-family: 'Oxygen', sans-serif;
 }
@@ -32,7 +32,9 @@ body {
 
 /* HEADER */
 #header-nav {
-  background-color: rgba(76, 76, 76, 0.9); /* #4C4C4C background color with 70% opacity */
+  background: url('../images/background-mix.jpg') repeat-y;
+  background-size: 100% auto;
+  opacity: 0.95;
   border-radius: 0;
   border: 0;
 }
@@ -128,9 +130,10 @@ body {
   width: 100%;
   text-align: center;
   font-size: 1.6em;
-  background-color: #000;
+  background: url('../images/background-mix.jpg') no-repeat;
+  background-size: 100% auto;
   color: #fff;
-  opacity: .8;
+  opacity: .9;
 }
 
 #inventory-tile:hover, #contact-tile:hover, #map-tile:hover {
@@ -143,6 +146,34 @@ body {
 }
 
 /* END HOME PAGE */
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background: url('../images/background-mix.jpg') repeat-y;
+  background-size: 100% auto;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
 
 
 /********** Large devices only **********/
@@ -200,6 +231,19 @@ body {
   }
   /* End Header */
 
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 65%;
+  }
+  /* End Footer */
+
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -220,7 +264,7 @@ body {
 /* Responsive Jumbotron */
 @media (max-width: 830px) {
   #header-nav {
-    background-color: #4C4C4C; /* Remove opacity */
+    opacity: 1;
     margin-bottom: 0;
     padding-bottom: 0;
   }

@@ -3,7 +3,7 @@ body {
   color: #fff;
   background: url('../images/background-1.jpg') repeat-y;
   background-size: 100% auto;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .jumbotron-lg {
@@ -120,7 +120,7 @@ body {
 #contact-tile {
   background: url('../images/contact-tile.jpg') no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  background-size: 101% auto;
 }
 
 #inventory-tile span, #contact-tile span, #map-tile span {
@@ -146,6 +146,121 @@ body {
 }
 
 /* END HOME PAGE */
+
+
+/* INVENTORY PAGE */
+#our-inventory-title {
+  margin-bottom: 50px;
+}
+
+.equipment-tile { 
+  width: 230px;
+  height: 245px;
+  margin: 0 auto 15px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/background-mix.jpg') repeat-y;
+  background-size: 100% auto;
+}
+.equipment-tile span.equipment-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: fit-content;
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: 300;
+  padding: 0px 10px 35px 10px;
+}
+
+.equipment-tile span.equipment-price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: fit-content;
+  font-size: 1.1em;
+  color: #EBD162;
+  font-style: italic;
+  font-weight: 300;
+  padding: 0px 10px 5px 10px;
+}
+
+.equipment-tile:hover {
+  box-shadow: 0 1px 5px 1px #E5873D;
+}
+
+.equipment-tile:hover span {
+  color: #E5873D;
+  opacity: 1;
+}
+/* END INVENTORY PAGE */
+
+
+/* EUIPMENT PAGE */
+#product-container {
+  margin: 5px 0px 20px 0px;
+}
+
+#imageCarousel {
+  max-width: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#product-name-and-price {
+  padding-bottom: 15px;
+  background: url('../images/background-mix.jpg') repeat-y;
+  background-size: 100% auto;
+  border-radius: 10px;
+}
+
+.product-name {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+#contact-us-btn > a {
+  font-size: 1.5em;
+  background-color: #E5873D;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#specifications {
+  padding: 25px;
+  background: url('../images/background-mix.jpg') repeat-y;
+  background-size: 100% auto;
+  border-radius: 10px;
+}
+
+#specifications p {
+  font-size: 1.4em;
+  border-bottom: 2px solid #E5873D;
+  padding-bottom: 5px;
+}
+
+#specifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#specifications li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+/* END EQUIPMENT PAGE */
 
 
 /* FOOTER */
@@ -182,18 +297,36 @@ body {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  
+@media (min-width: 992px) {
+  #product-container {
+    margin: 5px 10px 20px 10px;
+    display: flex;
+    align-items: center; /* Center vertically */
+  }
 }
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .navbar-brand {
     padding-top: 10px;
   }
 
   #phone a { /* Phone number */
     padding-right: 0;
+  }
+
+  #product-images {
+    width: 100%;
+    padding: 0; /* Remove padding for full width */
+    margin-bottom: 20px;
+  }
+
+  #specifications, #product-name-and-price {
+    padding: 10px;
+  }
+
+  #product-name-and-price > h2{
+    margin-top: 0;
   }
 }
 
@@ -231,6 +364,32 @@ body {
   }
   /* End Header */
 
+   /* Equipment Page */
+  .product-name {
+    font-size: 4vw;
+    margin-bottom: 15px;
+  }
+  
+  .product-price {
+    font-size: 3vw;
+  }
+
+  #contact-us-btn > a {
+    font-size: 3vw;
+  }
+
+  #specifications p {
+    font-size: 2.5vw;
+    border-bottom: 2px solid #E5873D;
+    padding-bottom: 5px;
+  }
+
+  #specifications li {
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  /* End Equipment Page */
+
   /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
@@ -247,6 +406,16 @@ body {
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 520px) {
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
 @media (max-width: 400px) {
   /* Header */
   .navbar-brand h1 { /* Company name */
@@ -259,6 +428,31 @@ body {
     margin: 0;
   }
   /* End Header */
+
+  /* Equipment Page */
+  .product-name {
+    font-size: 5vw;
+    margin-bottom: 15px;
+  }
+  
+  .product-price {
+    font-size: 4vw;
+  }
+
+  #contact-us-btn > a {
+    font-size: 4vw;
+  }
+
+  #specifications p {
+    font-size: 3.5vw;
+    border-bottom: 2px solid #E5873D;
+    padding-bottom: 5px;
+  }
+  #specifications li {
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+  }
+  /* End Equipment Page */
 }
 
 /* Responsive Jumbotron */
@@ -278,7 +472,7 @@ body {
       display: none;
   }
 
-  #main-content {
+  #main-content-home-page {
     width: 100%;
     padding: 0px 45px 0px 45px;
     margin: 0;

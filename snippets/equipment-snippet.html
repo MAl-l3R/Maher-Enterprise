@@ -1,0 +1,46 @@
+<div id="product-container" class="row">
+    <!-- Image Section -->
+    <div id="product-images" class="col-md-8">
+      <!-- Image Carousel (Use Bootstrap Carousel) -->
+      <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          {{carouselIndicators}}
+        </ol>
+        <div class="carousel-inner">
+            {{carouselImg}}
+        </div>
+        <a class="left carousel-control" href="#imageCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#imageCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Name and Price Section -->
+    <div id="product-name-and-price" class="col-md-4">
+      <h2 class="product-name">{{name}}</h2>
+      <p class="product-price text-right">{{price}}</p>
+      <p id="contact-us-btn" class="text-center">
+          <a href="contact-us.html">Contact Us</a>
+      </p>
+    </div>
+</div><!-- #product-container -->
+
+<!-- Specifications Section -->
+<div id="specifications" class="mt-4">
+    <p>Specifications</p>
+    <ul>
+        <li id="make">Make: {{make}}</li>
+        <li id="serialNo">Serial Number: {{serialNo}}</li>
+        <li id="model">Model: {{model}}</li>
+        <li id="year">Year: {{year}}</li>
+        <li id="condition">Condition: {{condition}}</li>
+        <li id="category">Category: {{category}}</li>
+        <li id="stock">Stock: {{stock}}</li>
+        <li id="vin">VIN: {{vin}}</li>
+    </ul>
+</div>

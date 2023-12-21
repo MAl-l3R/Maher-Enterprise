@@ -17,17 +17,25 @@ body {
   height: auto;
 }
 
-.jumbotron {
-  width: 100%;
+.container .jumbotron {
+  width: 100vw;
   height: auto;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
   margin-top: 0;
+  margin-left: -15px;
+  display: none;
 }
 
-.jumbotron img{
+.container .jumbotron img {
   width: 100%;
   height: auto;
+}
+
+#main-content-home {
+width: 100%;
+padding: 0px 45px 0px 45px;
+margin: 0;
+margin-top: calc((730 / 1695) * 100vw); /* 100vw = 100% of viewport width */
 }
 
 /* HEADER */
@@ -365,11 +373,30 @@ body {
   }
   /* End Header */
 
-  /* Home Page Tiles */
+  /* Home Page */
+  #header-nav {
+    opacity: 1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .jumbotron-lg {
+      display: none;
+  }
+
+  .container .jumbotron {
+    display: inline-block;
+}
+
+  #main-content-home {
+    padding: 0px 15px 0px 15px;
+    margin: 0;
+    }
+
   #inventory-tile > span, #contact-tile > span, #map-tile > span {
     font-size: 4vw;
   }
-  /* End Home Page Tiles */
+  /* End Home Page */
 
   /* Inventory Page */
   #our-inventory-title {
@@ -517,26 +544,9 @@ body {
 }
 
 /* Responsive Jumbotron */
-@media (max-width: 830px) {
-  #header-nav {
-    opacity: 1;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .jumbotron-lg {
-      display: none;
-  }
+@media (max-width: 767px) {
+  
 }
-@media (min-width: 831px) {
-  .jumbotron {
-      display: none;
-  }
-
-  #main-content-home-page {
-    width: 100%;
-    padding: 0px 45px 0px 45px;
-    margin: 0;
-    margin-top: calc((730 / 1695) * 100vw); /* 100vw = 100% of viewport width */
-  }
+@media (min-width: 768px) {
+  
 }

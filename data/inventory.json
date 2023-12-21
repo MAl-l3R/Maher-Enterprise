@@ -1,0 +1,379 @@
+[
+    {
+        "itemNo" : "1",
+        "category": "Excavator",
+        "make": "Sumitomo",
+        "model": "SH75-6A",
+        "year": "2013",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "2",
+        "category": "Excavator",
+        "make": "Komatsu",
+        "model": "PC200LC-8",
+        "year": "2012",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 5
+    },
+
+    {
+        "itemNo" : "3",
+        "category": "Excavator",
+        "make": "Hitachi",
+        "model": "PC200LC-8",
+        "year": "2012",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 5
+    },
+
+    {
+        "itemNo" : "4",
+        "category": "Excavator",
+        "make": "Hitachi",
+        "model": "PC200LC-8",
+        "year": "2021",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 5
+    },
+
+    {
+        "itemNo" : "5",
+        "category": "Excavator",
+        "make": "Kobelco",
+        "model": "PC200LC-8",
+        "year": "2016",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "6",
+        "category": "Excavator",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "2012",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 5
+    },
+
+    {
+        "itemNo" : "7",
+        "category": "Excavator",
+        "make": "Komatsu",
+        "model": "PC200LC-8",
+        "year": "2007",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 4
+    },
+
+    {
+        "itemNo" : "8",
+        "category": "Excavator",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "2019",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 5
+    },
+
+    {
+        "itemNo" : "9",
+        "category": "Excavator",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "2015",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 4
+    },
+
+    {
+        "itemNo" : "10",
+        "category": "Pay Loader",
+        "make": "Komatsu",
+        "model": "SH75-6A",
+        "year": "2020",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "11",
+        "category": "Pay Loader",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "2020",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "12",
+        "category": "Pay Loader",
+        "make": "Komatsu",
+        "model": "PC200LC-8",
+        "year": "2018",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 5
+    },
+
+    {
+        "itemNo" : "13",
+        "category": "Pay Loader",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "2001",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "14",
+        "category": "Pay Loader",
+        "make": "Kawasaki",
+        "model": "PC200LC-8",
+        "year": "2005",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "15",
+        "category": "Pay Loader",
+        "make": "Kawasaki",
+        "model": "PC200LC-8",
+        "year": "2015",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "16",
+        "category": "Pay Loader",
+        "make": "Kawasaki",
+        "model": "PC200LC-8",
+        "year": "2013",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "17",
+        "category": "Motor Grader",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "1992",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 5
+    },
+
+    {
+        "itemNo" : "18",
+        "category": "Motor Grader",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "2004",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "19",
+        "category": "Motor Grader",
+        "make": "Cat",
+        "model": "SH75-6A",
+        "year": "1978",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    },
+
+    {
+        "itemNo" : "20",
+        "category": "Motor Grader",
+        "make": "Komatsu",
+        "model": "PC200LC-8",
+        "year": "2019",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 8
+    },
+
+    {
+        "itemNo" : "21",
+        "category": "Bulldozer",
+        "make": "Komatsu",
+        "model": "PC200LC-8",
+        "year": "2019",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 7
+    },
+
+    {
+        "itemNo" : "22",
+        "category": "Bulldozer",
+        "make": "Komatsu",
+        "model": "PC200LC-8",
+        "year": "2014",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 7
+    },
+
+    {
+        "itemNo" : "23",
+        "category": "Bulldozer",
+        "make": "Komatsu",
+        "model": "PC200LC-8",
+        "year": "2021",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 7
+    },
+
+    {
+        "itemNo" : "24",
+        "category": "Bulldozer",
+        "make": "Komatsu",
+        "model": "PC200LC-8",
+        "year": "2005",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 7
+    },
+
+    {
+        "itemNo" : "25",
+        "category": "Bulldozer",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "2021",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 5
+    },
+
+    {
+        "itemNo" : "26",
+        "category": "Bulldozer",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "2012",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 7
+    },
+
+    {
+        "itemNo" : "27",
+        "category": "Bulldozer",
+        "make": "Cat",
+        "model": "PC200LC-8",
+        "year": "2018",
+        "price": "$36,827",
+        "serialNumber": "1234567890",
+        "condition": "Used",
+        "stock": "1234567890",
+        "vin": "1234567890",
+        "pictures": 6
+    }
+]

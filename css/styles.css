@@ -157,7 +157,7 @@ margin-top: calc((730 / 1695) * 100vw); /* 100vw = 100% of viewport width */
 
 
 /* INVENTORY PAGE */
-#our-inventory-title {
+#our-inventory-title, #about-us-title {
   margin: 50px 0;
 }
 
@@ -269,6 +269,20 @@ margin-top: calc((730 / 1695) * 100vw); /* 100vw = 100% of viewport width */
   margin-bottom: 10px;
 }
 /* END EQUIPMENT PAGE */
+
+
+/* ABOUT US */
+#about-us {
+  font-size: 1.3em;
+}
+#main-content-about {
+  background: url('../images/background-mix.jpg') repeat-y;
+  background-size: 100% auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px 30px 30px 30px;
+}
+/* END ABOUT US PAGE */
 
 
 /* FOOTER */
@@ -398,6 +412,17 @@ margin-top: calc((730 / 1695) * 100vw); /* 100vw = 100% of viewport width */
   }
   /* End Home Page */
 
+  /* About Page */
+  #about-us-title {
+    margin: 40px 0 30px;
+    font-size: 4vw;
+  }
+
+  #about-us {
+    font-size: 3vw;
+  }
+  /* End About Page */
+
   /* Inventory Page */
   #our-inventory-title {
     font-size: 4vw;
@@ -496,6 +521,18 @@ margin-top: calc((730 / 1695) * 100vw); /* 100vw = 100% of viewport width */
     font-size: 6.3vw;
   }
   /* End Home Page Tiles */
+
+
+  /* About Page */
+  #about-us-title {
+    font-size: 6.5vw;
+  }
+
+  #about-us {
+    font-size: 5vw;
+  }
+  /* End About Page */
+
 
   /* Inventory Page */
   #our-inventory-title {
